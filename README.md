@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Davin Fortune - Technonaut" width="100%">
+  <img src="banner.gif" alt="Davin Fortune - Technonaut" width="100%">
 </p>
 
 ```console
@@ -15,3 +15,5 @@ ls: cannot open directory '~/projects': Permission denied
 
 $ _
 ```
+
+<sub>banner animated with [terminaltexteffects](https://github.com/ChrisBuilds/terminaltexteffects)</sub>
