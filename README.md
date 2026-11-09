@@ -6,6 +6,9 @@
 $ whoami
 davin fortune
 
+$ echo $ROLE
+software development manager
+
 $ ls ~/projects
 ls: cannot open directory '~/projects': Permission denied
 # every repo is private (for now)
