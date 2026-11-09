@@ -1,13 +1,10 @@
 <p align="center">
-  <img src="banner.gif" alt="Davin Fortune - Technonaut" width="100%">
+  <img src="banner.gif" alt="Davin Fortune" width="100%">
 </p>
 
 ```console
 $ whoami
 davin fortune
-
-$ echo $ROLE
-technonaut
 
 $ ls ~/projects
 ls: cannot open directory '~/projects': Permission denied

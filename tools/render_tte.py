@@ -11,11 +11,11 @@ FALLBACK = ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial Unicode.
 NOTDEF = bytes(FONT.getmask('￿'))
 SGR = re.compile(r'\x1b\[([0-9;]*)m')
 
-def art_text(name="davin fortune", sub="> technonaut_"):
+def art_text(name="davin fortune", sub=""):
     art = pyfiglet.figlet_format(name, font="delta_corps_priest_1", width=300).rstrip("\n").split("\n")
     w = max(len(l) for l in art)
     lines = [l.ljust(w) for l in art]
-    lines += ["", sub.center(w)]
+    if sub: lines += ["", sub.center(w)]
     pad = (COLS - w) // 2
     return "\n".join(" " * pad + l for l in lines)
 
